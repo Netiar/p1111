@@ -1,4 +1,4 @@
-package com.example.p1111;
+package com.example.p1111.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.example.p1111.R;
 
 public class IntroActivity extends AppCompatActivity  {
     boolean islottie = false;
@@ -41,7 +42,7 @@ public class IntroActivity extends AppCompatActivity  {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(IntroActivity.this, IntroActivity.class));
+                startActivity(new Intent(IntroActivity.this, MainActivity.class));
             }
         });
 
@@ -50,7 +51,7 @@ public class IntroActivity extends AppCompatActivity  {
             @Override
             public void run() {
                 //calling main activity to load after loading screen
-                startActivity(new Intent(IntroActivity.this,IntroActivity.class));
+                startActivity(new Intent(IntroActivity.this,MainActivity.class));
                 finish(); //finish loading screen activity
             }
         }, 3500);
