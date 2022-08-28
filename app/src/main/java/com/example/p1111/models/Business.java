@@ -4,9 +4,6 @@ package com.example.p1111.models;
 import java.io.Serializable;
 import java.util.List;
 
-import com.example.p1111.Category;
-import com.example.p1111.Coordinates;
-import com.example.p1111.Location;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
@@ -52,7 +49,7 @@ public class Business implements Serializable
     private String imageUrl;
     @SerializedName("location")
     @Expose
-    private com.example.p1111.Location location;
+    private Location location;
     @SerializedName("distance")
     @Expose
     private Float distance;

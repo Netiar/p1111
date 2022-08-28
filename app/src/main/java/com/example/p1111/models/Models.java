@@ -4,7 +4,7 @@ package com.example.p1111.models;
 import java.io.Serializable;
 import java.util.List;
 
-import com.example.p1111.Region;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 

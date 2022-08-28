@@ -1,12 +1,12 @@
 
-package com.example.p1111;
+package com.example.p1111.models;
 
 import java.io.Serializable;
-import javax.annotation.Generated;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-@Generated("jsonschema2pojo")
+
 public class Region implements Serializable
 {
 
