@@ -14,8 +14,6 @@ import com.example.p1111.R;
 
 public class IntroActivity extends AppCompatActivity  {
     boolean islottie = false;
-    Button button;
-
 
 
     @Override
